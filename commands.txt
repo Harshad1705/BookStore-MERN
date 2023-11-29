@@ -1,0 +1,34 @@
+mkdir backend 
+
+cd backend
+
+npm init -y
+
+add { "type": "module", } in package.json
+
+npm i express nodemon
+
+add {  "start": "node index.js", "dev": "nodemon index.js", } in package.json
+
+mkdir index.js
+
+npm start
+
+npm i mongoose
+
+npm create vite@latest
+
+cd frontend
+
+npm i
+
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+npm run dev
+
+npm i react-router-dom
+
+npm i axios react-icons
+
+npm i notistack
